@@ -247,8 +247,8 @@ main {
   padding-bottom: 60px;
 }
 
-/* our stories section styles */
-.stories-title {
+/* our stories section styles*/
+ .stories-title {
   font-weight: 700;
   font-size: 2.875rem;
   text-align: center;
@@ -336,7 +336,73 @@ main {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 60px;
+} 
+
+/* footer styles */
+
+.footer-brand-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
 }
+.footer-brand-description{
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: white;
+}
+
+
+.footer-about-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
+}
+.footer-about-items{
+  list-style: none;
+  padding-left: 0px;
+  
+}
+.footer-about-item{
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: 10px 0px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+.footer-icon-title{
+  font-weight: 700;
+  font-size: 1.625rem;
+  color: white;
+  padding: 30px 5px;
+}
+footer{
+  background-color: rgba(1, 172, 253, 1);
+  max-width: 1440px;
+  width: 100%;
+margin: 0px auto;
+
+}
+.footer-contents{
+max-width: 1070.91px;
+display: flex;
+justify-content: space-around;
+margin: 0px auto;
+}
+.footer-brand-contents{
+ max-width: 400px;;
+  }
+.footer-brand{
+  display: flex;
+
+}
+.footer-icon{
+  padding: 5px;
+} 
+
 
 
 /* media query for responsive layout */
@@ -385,4 +451,15 @@ main {
     grid-template-columns: repeat(1 , 1fr);
     margin: 0px auto;
   }
+  .footer-contents{
+    flex-direction: column;    
+    }
+    footer{
+      margin: 0px;
+    }
+    .footer-contents{
+      text-align: start;
+      padding: 60px;
+    }
+
 }
