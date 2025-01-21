@@ -119,8 +119,85 @@
     height: 50px;
   }
   .banner-pic{
-    max-width: 468.61px;
+
     width: 100%;
+  }
+  /* background image and gradient color */
+  main{
+    background-image: url(../assets/bg.png) ,linear-gradient(0deg, #FFF4DC,white ) ;
+    max-width: 1440px;
+    margin: 0px auto;
+    width: 100%;
+  }
+  /* curriculum section styles */
+
+  .curriculum-title{
+    font-weight: 700;
+    font-size: 2.875rem;
+    text-align: center;
+  }
+  .curriculum-contents{
+    display: flex;
+    gap: 28.29px;
+    max-width: 1160px;
+    width: 100%;
+    margin: 0px auto;
+    justify-content: space-between;
+  }
+  .curriculum-card{
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 52px 40px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05) inset;
+  }
+  #blue-card{
+    background-image: linear-gradient(180deg, #DEF5FF,white );
+  }
+  #yellow-card{
+    background-image: linear-gradient(180deg, #FFF4DC,white );
+  }
+  #purple-card{
+    background-image: linear-gradient(180deg, #F2E8FF,white );
+
+  }
+  .curriculum-card-title{
+    font-weight: 700;
+    font-size: 1.53rem;
+    color: rgba(32, 32, 32, 1);
+  }
+  .curriculum-card-description{
+    font-weight: 500;
+    font-size: 0.94rem;
+    color: rgba(128, 128, 128, 1);
+  }
+  .button3{
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 0.94rem;
+  }
+  #blue-button{
+    color: rgba(100, 200, 255, 1);
+  }
+  #yellow-button{
+    color: rgba(240, 170, 0, 1);
+  }
+  #purple-button{
+    color: rgba(135, 0, 255, 1);
+  }
+  .button4{
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgba(254, 163, 1, 1);
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+  }
+  .scrolling-buttons{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
   }
   /* media query for responsive layout */
   @media  screen and (max-width: 576px) {
@@ -142,8 +219,14 @@
     }
     .banner{
         flex-direction: column-reverse;
+        gap: 20px;
     }
     .banner-contents{
         text-align: center;
+        margin: 0px;
+    }
+    .curriculum-contents{
+      flex-direction: column;
+      margin: 0px;
     }
   }
