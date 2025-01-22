@@ -278,7 +278,6 @@ main {
   background-color: white;
 }
 .stories-card-collage{
-  max-width: 601px;
   display: grid;
   gap: 19px;
   grid-template-columns: repeat(2 , 1fr);
@@ -307,6 +306,7 @@ main {
 .stories-image {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
+  width: 100%;
 }
 
 .button5 {
@@ -404,7 +404,7 @@ footer{
   background-color: rgba(1, 172, 253, 1);
   max-width: 1440px;
   width: 100%;
-margin: 0px auto;
+ margin: 0px auto;
 
 }
 .footer-contents{
@@ -414,7 +414,8 @@ justify-content: space-around;
 margin: 0px auto;
 }
 .footer-brand-contents{
- max-width: 400px;;
+ max-width: 400px;
+ padding-bottom: 20px;
   }
 .footer-brand{
   display: flex;
@@ -424,6 +425,11 @@ margin: 0px auto;
   padding: 5px;
   cursor: pointer;
 } 
+marquee{
+  font-weight: 700;
+  font-size: 2rem;
+  padding:30px 0;
+}
 
 
 
@@ -473,7 +479,6 @@ margin: 0px auto;
     display: none;
   }
   .stories-card-collage{
-    grid-template-columns: repeat(1 , 1fr);
     margin: 0px auto;
   }
   .footer-contents{
@@ -488,6 +493,14 @@ margin: 0px auto;
     }
     .scrolling-buttons{
       display: none;
+    }
+    #stories-button2{
+      margin-top: 100px;
+      margin-left: -195px;
+    }
+    #stories-button3{
+      margin-top: 100px;
+      margin-left: -195px;
     }
 
 }
