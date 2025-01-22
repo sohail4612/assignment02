@@ -273,6 +273,7 @@ main {
 }
 
 .stories-card1 {
+  position: relative;
   border-radius: 16px;
   max-width: 540.27px;
   background-color: white;
@@ -282,7 +283,29 @@ main {
   gap: 19px;
   grid-template-columns: repeat(2 , 1fr);
 }
-.stories-card{
+.stories-card2{
+  position: relative;
+  border-radius: 16px;
+  max-width: 291px;
+  width: 100%;
+  background-color: white;
+}
+.stories-card3{
+  position: relative;
+  border-radius: 16px;
+  max-width: 291px;
+  width: 100%;
+  background-color: white;
+}
+.stories-card4{
+  position: relative;
+  border-radius: 16px;
+  max-width: 291px;
+  width: 100%;
+  background-color: white;
+}
+.stories-card5{
+  position: relative;
   border-radius: 16px;
   max-width: 291px;
   width: 100%;
@@ -293,14 +316,14 @@ main {
   font-weight: 700;
   font-size: 1.5rem;
   margin: 35px 35px 0px 35px;
+  padding: 10px;
 }
 
 .stories-card-description {
   font-weight: 500;
   font-size: 0.96rem;
   color: rgba(102, 102, 102, 1);
-  padding: 35px;
-  padding-top: 20px;
+  padding: 20px 45px;
 }
 
 .stories-image {
@@ -337,21 +360,34 @@ main {
 }
 #stories-button1{
   position: absolute;
-  margin-top: 312px;
-  margin-left: -500px;
+  top: 315px;
+  left: 40px;
   background-color: rgba(60, 216, 232, 1);
 }
 #stories-button2{
   position: absolute;
-  margin-top: 155px;
-  margin-left: -255px;
+  top: 155px;
+  left: 34px;
   background-color: rgba(149, 178, 38, 1);
 }
+
 #stories-button3{
   position: absolute;
-  margin-top: 155px;
-  margin-left: -255px;
+  top: 155px;
+  left: 34px;
   background-color: rgba(93, 88, 240, 1);
+}
+#stories-button4{
+  position: absolute;
+  top: 155px;
+  left: 34px;
+  background-color: rgba(149, 178, 38, 1);
+}
+#stories-button5{
+  position: absolute;
+  top: 155px;
+  left: 34px;
+  background-color: rgba(149, 178, 38, 1);
 }
 .stories-button{
   text-align: center;
@@ -495,12 +531,20 @@ marquee{
       display: none;
     }
     #stories-button2{
-      margin-top: 100px;
-      margin-left: -195px;
+      top: 95px;
+      left: 10px;
     }
+    
     #stories-button3{
-      margin-top: 100px;
-      margin-left: -195px;
+      top: 95px;
+      left: 10px;
     }
-
+    #stories-button4{
+      top: 95px;
+      left: 10px;
+    }
+    #stories-button5{
+      top: 95px;
+      left: 10px;
+    }
 }
