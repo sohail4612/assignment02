@@ -21,6 +21,11 @@ body {
   margin: 0px;
 }
 
+header {
+  max-width: 1440px;
+  margin: 0px auto;
+  width: 100%;
+}
 
 /* nav bar styles */
 .brand {
@@ -74,6 +79,7 @@ body {
   border-radius: 12px;
   width: 197px;
   height: 50px;
+  cursor: pointer;
 }
 
 .navigation-bar {
@@ -146,7 +152,9 @@ body {
   border-radius: 12px;
   width: 197px;
   height: 50px;
+  cursor: pointer;
 }
+
 
 .banner-pic {
 
@@ -217,7 +225,10 @@ main {
   background-color: transparent;
   font-weight: 700;
   font-size: 0.94rem;
+  cursor: pointer;
 }
+
+
 
 #blue-button {
   color: rgba(100, 200, 255, 1);
@@ -239,6 +250,12 @@ main {
   height: 60px;
   border-radius: 30px;
   border: none;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.button4:hover{
+  background-color: #05D4DF;
+  transition: 0.5s;
 }
 
 .scrolling-buttons {
@@ -302,6 +319,10 @@ main {
   border-radius: 47.93px;
   
 }
+.button5:hover{
+  cursor: pointer;;
+}
+
 .stories-content{
   display: flex;
   justify-content: space-between;
@@ -401,13 +422,14 @@ margin: 0px auto;
 }
 .footer-icon{
   padding: 5px;
+  cursor: pointer;
 } 
 
 
 
 /* media query for responsive layout */
 @media screen and (max-width: 576px) {
-  body {
+  header,main,footer {
     padding: 0px 16px;
   }
 
@@ -444,6 +466,9 @@ margin: 0px auto;
     flex-direction: column;
     margin: 0px;
   }
+  .stories-title{
+    padding-top: 0px;
+  }
   .stories-card1{
     display: none;
   }
@@ -460,6 +485,9 @@ margin: 0px auto;
     .footer-contents{
       text-align: start;
       padding: 60px;
+    }
+    .scrolling-buttons{
+      display: none;
     }
 
 }
